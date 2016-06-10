@@ -42,7 +42,6 @@ public final class Main {
                         for (Integer friendId : person.getFriends()) {
                             result.add(new Tuple2<>(friendId, ownerId));
                         }
-
                         return result;
                     }
                 })
